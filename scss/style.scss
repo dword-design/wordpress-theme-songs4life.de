@@ -1,101 +1,104 @@
-@import url('../twentyeleven/style.css');
+@import url("../twentyeleven/style.css");
 
 %clearfix {
-    *zoom: 1;
-    &::before,
-    &::after {
-        content: " ";
-        display: table;
-    }
+  *zoom: 1;
+  &::before,
+  &::after {
+    content: " ";
+    display: table;
+  }
 
-    &::after {
-        clear: both;
-    }
+  &::after {
+    clear: both;
+  }
 }
 
 h1 {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .entry-header {
-    display: none;
+  display: none;
 }
 
 #searchform {
-    display: none;
+  display: none;
 }
 
-.widget p + ul {
-    margin-top: -20px;
-}
-
-.widget li {
+.widget {
+  li {
     margin-left: 20px;
-}
+  }
 
-.widget ul {
+  ul {
+
+  @nest p + & {
+    margin-top: -20px;
+  }
+
     margin-bottom: 10px;
+  }
 }
 
 .kuenstler {
+  .kuenstler__image {
+    margin-right: 0;
+
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 0;
+      margin-left: 0;
+    }
+  }
+
+  &.kuenstler--teaser {
+    display: block;
+    float: left;
+    margin-right: 2rem;
+
     .kuenstler__image {
-        margin-right: 0;
-
-        img {
-            width: 100%;
-            height: auto;
-            margin-left: 0;
-            margin-bottom: 0;
-        }
+      max-width: 130px;
+      min-height: 160px;
     }
+  }
 
-    &.kuenstler--teaser {
-        display: block;
-        float: left;
-        margin-right: 2rem;
+  &.kuenstler--detail {
+    @extend %clearfix;
 
-        .kuenstler__image {
-            min-height: 160px;
-            max-width: 130px;
-        }
+    .kuenstler__image {
+      float: right;
+      max-width: 200px;
+      min-height: 250px;
+      margin-bottom: 2rem;
+      margin-left: 2rem;
     }
-
-    &.kuenstler--detail {
-        @extend %clearfix;
-
-        .kuenstler__image {
-            min-height: 250px;
-            max-width: 200px;
-            float: right;
-            margin-left: 2rem;
-            margin-bottom: 2rem;
-        }
-    }
+  }
 }
 
 .veranstaltung {
-    .kuenstler-container {
-        @extend %clearfix;
-    }
+  .kuenstler-container {
+    @extend %clearfix;
+  }
 }
 
 #secondary h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .map-container {
-    width: 100%;
-}
+  width: 100%;
 
-.map-container iframe {
-    display: block;
-    width: 100%;
-    position: relative; /* IE needs a position other than static */
-    pointer-events: none;
-}
+& iframe {
+  position: relative; /* IE needs a position other than static */
+  display: block;
+  width: 100%;
+  pointer-events: none;
 
-.map-container iframe.clicked {
-    pointer-events: auto;
+&.clicked {
+  pointer-events: auto;
+}
+}
 }
 
 span.wpcf7-list-item {

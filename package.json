@@ -17,10 +17,7 @@
     "test": "base test"
   },
   "dependencies": {
-    "animsition": "^4.0.2",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.5.1",
-    "reset-css": "^2.2.1"
+    "jquery": "^3.5.1"
   },
   "devDependencies": {
     "@dword-design/base": "^6.24.1",
