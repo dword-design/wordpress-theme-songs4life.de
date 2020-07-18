@@ -31,10 +31,9 @@ h1 {
   }
 
   ul {
-
-  @nest p + & {
-    margin-top: -20px;
-  }
+    @nest p + & {
+      margin-top: -20px;
+    }
 
     margin-bottom: 10px;
   }
@@ -89,16 +88,16 @@ h1 {
 .map-container {
   width: 100%;
 
-& iframe {
-  position: relative; /* IE needs a position other than static */
-  display: block;
-  width: 100%;
-  pointer-events: none;
+  & iframe {
+    position: relative; /* IE needs a position other than static */
+    display: block;
+    width: 100%;
+    pointer-events: none;
 
-&.clicked {
-  pointer-events: auto;
-}
-}
+    &.clicked {
+      pointer-events: auto;
+    }
+  }
 }
 
 span.wpcf7-list-item {
