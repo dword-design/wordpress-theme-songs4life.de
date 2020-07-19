@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/dword-design/wordpress-theme-songs4life.de/compare/v1.0.1...v1.0.2) (2020-07-19)
+
+
+### Bug Fixes
+
+* fix ([edf2a31](https://github.com/dword-design/wordpress-theme-songs4life.de/commit/edf2a31e126685f177303e493ba942f20310816b))
+
 ## [1.0.1](https://github.com/dword-design/wordpress-theme-songs4life.de/compare/v1.0.0...v1.0.1) (2020-07-18)
 
 
