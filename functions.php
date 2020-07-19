@@ -23,7 +23,7 @@ function display_posts_unlink_title( $output, $original_atts, $image, $title, $d
 add_filter('display_posts_shortcode_output', 'display_posts_unlink_title', 10, 9);
 
 function enqueue_scripts() {
-    wp_enqueue_script('index.js', get_stylesheet_directory_uri() . '/dist/index.js', true);
+    wp_enqueue_script('index.js', get_stylesheet_directory_uri() . '/dist/index.js', [], '1.0.0', true);
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_scripts');
