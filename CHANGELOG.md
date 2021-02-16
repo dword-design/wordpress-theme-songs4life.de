@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/dword-design/wordpress-theme-songs4life.de/compare/v1.0.5...v1.0.6) (2021-02-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @dword-design/base to v7 ([#5](https://github.com/dword-design/wordpress-theme-songs4life.de/issues/5)) ([91ed148](https://github.com/dword-design/wordpress-theme-songs4life.de/commit/91ed148d18439ae03a7d8e3c65b6911e56282728))
+
 ## [1.0.5](https://github.com/dword-design/wordpress-theme-songs4life.de/compare/v1.0.4...v1.0.5) (2021-02-16)
 
 
