@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "",
   "repository": "dword-design/wordpress-theme-songs4life.de",
+  "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
   "files": [
@@ -27,5 +28,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "baseConfig": "@dword-design/wordpress-theme"
+  "baseConfig": {
+    "name": "@dword-design/wordpress-theme",
+    "codecovGraphToken": "2Y78VQ4A26"
+  }
 }
