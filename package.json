@@ -22,7 +22,7 @@
     "jquery": "^3.5.1"
   },
   "devDependencies": {
-    "@dword-design/base": "^7.0.0",
+    "@dword-design/base": "^7.13.2",
     "@dword-design/base-config-wordpress-theme": "^1.1.0"
   },
   "publishConfig": {
