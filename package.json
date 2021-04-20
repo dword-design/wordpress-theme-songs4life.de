@@ -1,7 +1,7 @@
 {
   "name": "main-theme",
   "version": "1.0.10",
-  "description": "",
+  "description": null,
   "repository": "dword-design/wordpress-theme-songs4life.de",
   "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
@@ -31,5 +31,7 @@
   "baseConfig": {
     "name": "@dword-design/wordpress-theme",
     "codecovGraphToken": "2Y78VQ4A26"
-  }
+  },
+  "homepage": null,
+  "keywords": []
 }
