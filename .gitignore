@@ -1,9 +1,9 @@
 .DS_Store
 /.env.json
-/.eslintrc.json
 /.nyc_output
 /.stylelintrc.json
 /.test.env.json
 /coverage
+/dist
 /node_modules
 /postcss.config.js
