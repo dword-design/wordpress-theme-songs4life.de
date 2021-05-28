@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/dword-design/wordpress-theme-songs4life.de/compare/v1.0.14...v1.0.15) (2021-05-28)
+
+
+### Bug Fixes
+
+* update config files ([f3eae36](https://github.com/dword-design/wordpress-theme-songs4life.de/commit/f3eae3663839042d0eadb7520fdc286d36d9419a))
+
 ## [1.0.14](https://github.com/dword-design/wordpress-theme-songs4life.de/compare/v1.0.13...v1.0.14) (2021-05-03)
 
 
