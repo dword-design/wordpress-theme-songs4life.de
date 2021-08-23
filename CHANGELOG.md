@@ -1,3 +1,10 @@
+## [1.0.24](https://github.com/dword-design/wordpress-theme-songs4life.de/compare/v1.0.23...v1.0.24) (2021-08-23)
+
+
+### Bug Fixes
+
+* lock file maintenance ([03c73e5](https://github.com/dword-design/wordpress-theme-songs4life.de/commit/03c73e5211f4d7113ae698aabbc359a6f8875cd6))
+
 ## [1.0.23](https://github.com/dword-design/wordpress-theme-songs4life.de/compare/v1.0.22...v1.0.23) (2021-08-16)
 
 
