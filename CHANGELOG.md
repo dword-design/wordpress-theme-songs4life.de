@@ -1,3 +1,10 @@
+## [1.0.41](https://github.com/dword-design/wordpress-theme-songs4life.de/compare/v1.0.40...v1.0.41) (2021-12-06)
+
+
+### Bug Fixes
+
+* lock file maintenance ([bad3092](https://github.com/dword-design/wordpress-theme-songs4life.de/commit/bad30922d41354f91ff3443ae5078b1fedb27a17))
+
 ## [1.0.40](https://github.com/dword-design/wordpress-theme-songs4life.de/compare/v1.0.39...v1.0.40) (2021-11-29)
 
 
