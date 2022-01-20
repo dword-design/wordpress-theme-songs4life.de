@@ -1,5 +1,5 @@
 <!-- TITLE/ -->
-# main-theme
+# @dword-design/wordpress-theme-songs4life.de
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
@@ -53,10 +53,10 @@
 
 ```bash
 # npm
-$ npm install main-theme
+$ npm install @dword-design/wordpress-theme-songs4life.de
 
 # Yarn
-$ yarn add main-theme
+$ yarn add @dword-design/wordpress-theme-songs4life.de
 ```
 <!-- /INSTALL -->
 
