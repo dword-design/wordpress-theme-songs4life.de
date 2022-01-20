@@ -1,3 +1,12 @@
+## [1.0.48](https://github.com/dword-design/wordpress-theme-songs4life.de/compare/v1.0.47...v1.0.48) (2022-01-20)
+
+
+### Bug Fixes
+
+* fix package name ([631ca8f](https://github.com/dword-design/wordpress-theme-songs4life.de/commit/631ca8f1af175ddd1e0dee19dde92304ac922d7a))
+* lock file maintenance ([0fea645](https://github.com/dword-design/wordpress-theme-songs4life.de/commit/0fea645f7712d91e1312b0dcee2c0eee6d56b318))
+* update config files ([80bb75d](https://github.com/dword-design/wordpress-theme-songs4life.de/commit/80bb75d5d3ff50f3e55e90deec28565f7c0c0968))
+
 ## [1.0.47](https://github.com/dword-design/wordpress-theme-songs4life.de/compare/v1.0.46...v1.0.47) (2022-01-12)
 
 
